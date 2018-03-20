@@ -1,0 +1,66 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+#container {
+    background:grey;
+    border-bottom: 2px;
+    height: 30%;
+    width: 100%;
+}
+
+h1 {
+    background: teal;
+    color: white;   
+    width: 25%;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+nav {
+   float: right;
+   padding: 10px;
+   color: grey;
+}
+
+body {
+    width: 960px;
+    background-image: url("../images/cork.png")
+}
+
+footer {
+
+    width: 960px;
+    background: grey;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+
+img, p, { float:left;
+}
+
+#contactForm {
+    background: white;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 70%;
+    border: none;
+
+
+}
+
+h2 {
+    border-bottom: grey 5px;
+    background: white;
+    padding: 20px;
+
+}
+
+
