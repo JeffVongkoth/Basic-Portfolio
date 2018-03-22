@@ -1,38 +1,43 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 
 #container {
-    background:grey;
-    border-bottom: 2px;
+    background: white;
     height: 30%;
     width: 100%;
+    position: static;
+    padding: 0;
 }
 
 h1 {
-    background: teal;
+    padding: 0 auto; 
+    background: rgb(63, 182, 182);
+    opacity: 0.8;
     color: white;   
     width: 25%;
+    height: 65px;   
     text-align: center;
     font-size: 25px;
+    position: relative;
+    left: 145px;
+    top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-
 nav {
    float: right;
-   padding: 10px;
+   padding: 20px;
    color: grey;
+   
 }
-
 body {
     width: 960px;
     background-image: url("../images/cork.png")
 }
-
 footer {
-
     width: 960px;
     background: grey;
     position: absolute;
@@ -41,26 +46,87 @@ footer {
     bottom: 0;
     text-align: center;
 }
-
-
-img, p, { float:left;
-}
-
-#contactForm {
+.contactForm {
     background: white;
     margin: 0 auto;
     padding: 0 auto;
     width: 70%;
     border: none;
+}
 
+fieldset {
+    border-style: none;
+}
+.container3 {
+    background: white;
+    margin: 100px;
+    padding: 0 auto;
+    width: 70%;
+    border: solid rgba(155, 153, 153, 0.938);
+    border-width: 2px;
+    height: 500px;
+    margin-left: 145px;
+    float: left;
+    color: rgba(155, 153, 153, 0.938);
+}
+.clearfix {
+    overflow: auto;
+}
+header {
+    width: 960px;
+    float: left;
+    background: white;
+    left: 0;
+    top: 0;
+    height: 65px;
+    position: absolute;
+    border-bottom-color: rgba(155, 153, 153, 0.938);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 100px;
+}
 
+li {
+
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: grey;
 }
 
 h2 {
-    border-bottom: grey 5px;
-    background: white;
-    padding: 20px;
-
+    color: rgb(63, 182, 182);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.propic {
+    float: left;
+    height: auto;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
 
+#title {
+    height: 30px;
+    width: 93%;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 25px;
+    border-bottom-color: rgba(155, 153, 153, 0.938);
+    border-bottom-width: 2px;
+    border-style: solid;
+}
+
+p {
+    padding-top: 15px;
+}
