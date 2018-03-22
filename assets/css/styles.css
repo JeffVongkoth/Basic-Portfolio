@@ -130,3 +130,9 @@ h2 {
 p {
     padding-top: 15px;
 }
+
+ul { float: left;
+}
+.clearfix {
+    
+}
